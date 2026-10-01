@@ -1,0 +1,17 @@
+{
+  "name": "phucmax-verify-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Private Lua source verification backend for Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
